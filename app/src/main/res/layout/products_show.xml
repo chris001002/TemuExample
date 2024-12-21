@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="20sp"
+    android:layout_margin="25sp"
+    >
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/add"
+        />
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rp. 100.000"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/product_sold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="100 Sold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/product_wholesale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100.000 for 100 sold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="5sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/product_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due: 2024-12-10 10:30"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="5sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/product_addToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp"
+        android:backgroundTint="@color/blue"
+        android:text="Add to cart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+
+</LinearLayout>

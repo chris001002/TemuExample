@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1050667304951",
+    "firebase_url": "https://temu-31973-default-rtdb.firebaseio.com",
+    "project_id": "temu-31973",
+    "storage_bucket": "temu-31973.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050667304951:android:f3e4f99534775955f090f2",
+        "android_client_info": {
+          "package_name": "com.example.temu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwn_ilbCpu1JOP_GJ5Y5C1rShy0jFCpsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
